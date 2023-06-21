@@ -10,14 +10,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --black: #04152d;
-  --black2: #041226;
-  --black3: #020c1b;
-  --black-lighter: #1c4b91;
-  --black-light: #173d77;
-  --pink: #da2f68;
+  --black: #1d1d1d;
+  --black2: #1d222a;
+  --black3: #525252;
+  --black-lighter: #1c9135;
+  --black-light: #2ecc5d;
+  --pink: #c4ef76;
   --orange: #f89e00;
-  --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  --gradient: linear-gradient(98.37deg, #c4ef76 0.99%, #45d9e6e4 100%);
 }
 
 * {
@@ -37,7 +37,7 @@ body {
 .skeleton {
   position: relative;
   overflow: hidden;
-  background-color: #0a2955;
+  background-color: #535353;
   &::after {
     position: absolute;
     top: 0;
@@ -47,10 +47,10 @@ body {
     transform: translateX(-100%);
     background-image: linear-gradient(
       90deg,
-      rgba(#193763, 0) 0,
-      rgba(#193763, 0.2) 20%,
-      rgba(#193763, 0.5) 60%,
-      rgba(#193763, 0)
+      rgba(#1d1d1d, 0) 0,
+      rgba(#1d1d1d, 0.2) 20%,
+      rgba(#1d1d1d, 0.5) 60%,
+      rgba(#1d1d1d, 0)
     );
     animation: shimmer 2s infinite;
     content: "";
